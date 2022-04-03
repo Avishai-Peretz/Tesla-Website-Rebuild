@@ -296,22 +296,20 @@ p {
  }
  #p3_footer_l {
      width: 25%;
-     margin-right: 7%;
-     
+     margin-right: 7%;    
  }
 
  #p3_btn_2 {
      width: 100px;
  }
 
- #p3_footer_r p {
 
- }
  #p3_footer_r {
      display: flex;
      width: 35%;
      text-align: start;
  }
+
  #p3_footer_l:first-child {
      max-width: 19.8%;
  }

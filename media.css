@@ -152,8 +152,7 @@
    #page_3{
         height: 100vh;
     }
-    #page_3__main{
-    }
+
     #info_3{
         flex-direction: row;
         justify-content: space-evenly;

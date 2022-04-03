@@ -513,16 +513,21 @@ src: url(https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-XLight_Web.w
 /* do not write under the line!
 _________________________________________________
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
-.tran { 
+.tran_1 { 
     opacity: 0 !important; 
     transition: 2s !important;
 }
+
 .tran_2 { 
     opacity: 0 !important; 
     transition: 0.5s !important;
 }
 
 .none { 
+    display: none !important; 
+    transition: 1s !important;
+}
+.nav_none{
     display: none !important; 
     transition: 1s !important;
 }
