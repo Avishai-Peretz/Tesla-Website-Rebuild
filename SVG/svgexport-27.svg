@@ -1,0 +1,5 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" class="tds-icon tcl-icon--round tcl-drawer-trigger__trigger tcl-drawer-trigger__trigger-next" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" width="100"  height="100" ><defs><symbol id="tcl-icon-chevron--180" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+    <path stroke="#393C41" stroke-width="1.5px" d="M10.5 17.5l4.5-4 4.5 4" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="rotate(180 15 15)"></path>
+  </symbol></defs>
+      <use xlink:href="#tcl-icon-chevron--180"></use>
+    </svg>

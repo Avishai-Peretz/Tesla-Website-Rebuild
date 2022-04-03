@@ -1,0 +1,11 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1225 562" class="tcl-carousel-v2__range-path" preserveAspectRatio="xMidYMid slice" xml:space="preserve" width="1225"  height="562" >
+        <path d="M467,446.1l0.1-3.5l-2-3.2l0.1-3.1l-2.5-11.3l2-2l1.8-5.2l6.3-3.5l7.3-10.3l4-2.9l0.1-4.5l-1.1-3.1v-10l4.5-11.7l7-5.4l7.5-8.6l0.5-0.3l13.1-7.4l8.2-11.7l0.4-6.7l3.6-6.7l7.5-3.3l44.6-45.4l9-5.6l34.9-8.8l4.3-9l9-6.5h16.3l4.2-2.7h3.8l21.5-25.9l2.7-5.9l25.7-25.5l1-4.8l9-3.3l6.1-7.7l1.9-6.1l6.3-6.9l4.8-7.5l1-5.2l2.3-2.1l1.7-9l4.4-9.8l2.9-9.8l2.5-2.9h2.5l7.3-4.8v-2.7l9.4-5.4l3.8-4.2h3.6l8.4-8.4v-2.5l5.6-4l1.7-2.5l1.7-3.3l6.9-3.1l2.3-2.5l10.5-3.3l6.1-4.4h2.9l8.4,6.7l3.1-0.2l1.5-1.9h11.9l8.6-2.7l8.4-0.6l5.6-3.8h6.7l3.6,3.1l2.1-1l2.9,1.5l4.6-1.5l4,1.9l5.2,0.8v7.1v5.4l-1.5,5.9l3.6,11.7v2.9l1,1.9v3.6l1.9,2.5h8.4" fill="none" stroke="#000000" style="stroke-dasharray: 711.514, 711.514; stroke-dashoffset: 711.514;" stroke-width="4px"></path>
+        <g class="tooltip" transform="translate(467,446.1000061035156)">
+          <circle fill="#231F20" cx="0" cy="0.8" r="4.4"></circle>
+          <g>
+            <rect x="-38.2" y="5.5" fill="#EC1C24" width="76.3" height="22.1"></rect>
+            <rect x="-4.4" y="1.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -4.3565 1.8045)" fill="#EC1C24" width="8.9" height="8.9"></rect>
+          </g>
+          <text text-anchor="middle" transform="matrix(1 0 0 1 0 21.2519)" fill="#FFFFFF" font-family="Gotham Bold" font-size="13px">0 Miles</text>
+        </g>
+      </svg>

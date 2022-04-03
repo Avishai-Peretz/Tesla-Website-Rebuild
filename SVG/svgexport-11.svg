@@ -1,0 +1,5 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" class="tds-icon tds-icon-chevron--filled--180" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg" width="30"  height="30" ><defs><symbol id="tds-icon-chevron--filled--180" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M4.293 16.317a1 1 0 0 0 1.414 0L12 10.025l6.293 6.293a1 1 0 1 0 1.414-1.414l-7-7a1 1 0 0 0-1.414 0l-7 7a1 1 0 0 0 0 1.414z" transform="rotate(180 12 12)" fill="#393C41"></path>
+  </symbol></defs>
+              <use xlink:href="#tds-icon-chevron--filled--180"></use>
+            </svg>

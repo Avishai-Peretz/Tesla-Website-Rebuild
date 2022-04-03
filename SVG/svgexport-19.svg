@@ -1,0 +1,5 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" class="tcl-video__replay-icon tcl-icon tcl-icon--round tds-icon tds-icon-play" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg" width="30"  height="30" ><defs><symbol id="tds-icon-play" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M19.057 10.38 6.815 3.253A1.857 1.857 0 0 0 5.882 3c-.978 0-1.875.782-1.875 1.874v14.252c0 1.092.897 1.874 1.875 1.874.312 0 .631-.08.933-.254l12.242-7.125c1.248-.72 1.248-2.522 0-3.242zm-.755 1.944L6.065 19.447a.36.36 0 0 1-.183.053c-.151 0-.375-.119-.375-.374V4.874c0-.255.224-.374.375-.374.062 0 .122.017.178.05l12.247 7.128c.153.089.186.224.186.322s-.033.233-.19.324z" fill="#393C41"></path>
+  </symbol></defs>
+        <use xlink:href="#tds-icon-play"></use>
+      </svg>

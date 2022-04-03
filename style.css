@@ -1,0 +1,476 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: gotham SSm;
+    scroll-behavior: smooth;   
+}
+
+
+
+
+
+body {
+    width: 100%;
+    position: relative;
+    -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none; 
+
+}
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Inline-Elements */
+h1 {
+    font-weight: 500;
+    font-size: 40px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 28px;
+    font-family: 'Gotham SSm', sans-serif;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+h3 {
+    font-size: 17px;
+    font-family: 'Gotham SSm', sans-serif;
+    font-weight: 400;
+    line-height: 20px
+}
+
+h4 {
+    font-size: 14px;
+    font-family: 'Gotham SSm', sans-serif;
+    line-height: 20px;
+}
+p {
+    font-size:14px;
+    font-weight:400;
+    line-height: 20px;
+}
+
+
+
+
+.pages {
+    width: 100%;
+    height: 100vh;
+} 
+/* ----Page_1---- */
+
+#page_1 {
+    background: url(img/img-p1.jpg) no-repeat center center/cover;
+
+}
+
+#navtop {
+        top: -10px;
+        position: fixed;   
+}
+
+.navtop {
+    display: flex;   
+    width: 100%;
+    min-height: 56px;
+    padding: 0 32px;
+    padding-top:20px;
+    opacity: 1;
+    transition: 1s;
+}
+
+
+#tesla_logo {
+    min-width: 122px;
+    margin-left: .9% ;
+    transition: 1s;
+}
+#tesla_logo a {
+    width:100%;
+    height: 100%;
+}
+
+#nav_top__center {
+    width: 624px;
+    margin-left: 7.5% ;
+    transition: 1s;
+    height: 32px;
+    flex-direction: row;
+    align-items: center;
+}
+
+#nav_top__center a{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#nav_top__center {
+    height: 32px;
+    flex-direction: row;
+    align-items: center;
+}
+#nav_top__center a {
+    display: block;
+    padding-top: 0%;
+    padding-right: 8px;
+    padding-left: 9px;
+}
+.nav_top_link:hover{
+    padding: 5px 20px;
+    background-color: #888 ;
+    border-radius: 20px ;
+    color: white;
+    opacity: 0.6;
+    transition: .3s;
+}
+
+#nav_top__right a{
+    padding: 4px 16px;
+    transition: 1s;
+}
+
+#model_3 {
+    margin-bottom: 27%;
+    opacity: 1;
+    transition: 2s;
+}
+
+#info_1 {
+    width: 764px;
+    margin: 70px 0;
+    opacity: 1;
+    transition: 3s;
+    transform: 2s;
+}
+
+.p1_info_spec , .p2_info_spec {
+    padding: 40px;
+}
+
+ 
+
+
+
+
+/* ----Page_2---- */
+
+#page_2 {
+    width: 100%;
+    position: relative;
+}
+
+#picture-2 {
+    width: 54.8%;
+    height: 100%;
+    background: url(./img/img-p2.jpg) center center/cover;
+    object-fit: contain;
+    position: relative;
+}
+
+/* .buttons {
+    width: 40%;
+} */
+#page_2__main {
+    width: 34%;
+    height: 100%;
+
+}
+#info_2 {
+    height: 100%;
+    width: 100%;
+    padding: 50px 40px 22px 0px;
+    opacity: 1;
+    transition: 3s;
+}
+#info_2-1 {
+   width: 339px;
+    height: 240px;
+}
+
+.info {
+    margin: 0px;
+    text-align:left;
+}
+
+#safety {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: 2s;
+    position: relative;
+}
+
+.safety_anim_1 {
+    position:absolute;
+    height: 28%;
+    width: .3%;
+    background-color: rgb(0, 0, 0);
+    top: 24%;
+    left: 22%;
+    opacity: 1;
+    transition: 3s;
+}
+
+#safety_anim_1::after{
+    content: "Impact Protection";
+    position: absolute;
+    width: 10vw; 
+    z-index: 10;
+    top: -2%;
+    left: 350%;
+ }
+
+.safety_anim_2 {
+    position:absolute;
+    height: 15%;
+    width: .3%;
+    background-color: rgb(0, 0, 0);
+    top: 15%;
+    left: 50%;
+    opacity: 1;
+    transition: 3s;
+}
+
+#safety_anim_2::after{
+    content: "Rigid Structure";
+    position: absolute;
+    width: 10vw; 
+    z-index: 10;
+    top: -2%;
+    left: 350%;
+ }
+
+.safety_anim_3 {
+    position:absolute;
+    height: 20%;
+    width: .3%;
+    background-color: rgb(0, 0, 0);
+    top: 59%;
+    left: 53.5%;
+    opacity: 1;
+    transition: 3s;
+
+}
+
+#safety_anim_3::after{
+   content: "Very Low Rollover Risk";
+   position: absolute;
+   width: 10vw; 
+   z-index: 10;
+   bottom: -2%;
+    left: 350%; 
+}
+
+
+/* ----Page_3---- */
+#Page_3__main{
+    background: url(./img/img-p3.jpg) center center/cover;
+    width: 100%;
+    height: 75%;
+    
+}
+
+#info_3 {
+    width: 55%;
+}
+
+.info_3{
+    width: 30%;
+    text-align: center;
+    padding:20px 25px 50px 25px ;
+
+}
+.info_3 h1 {
+    margin: 0;    
+}
+
+#page_3__footer_mobile{
+    display: none;
+}
+ #page_3__footer{
+     max-width: 100%;
+     height: 25%;
+ }
+ #p3_footer_l {
+     width: 25%;
+     margin-right: 7%;
+     
+ }
+
+ #p3_btn_2 {
+     width: 100px;
+ }
+
+ #p3_footer_r p {
+
+ }
+ #p3_footer_r {
+     display: flex;
+     width: 35%;
+     text-align: start;
+ }
+ #p3_footer_l:first-child {
+     max-width: 19.8%;
+ }
+ #p3_footer_r {
+     max-height: 20%;
+    text-align: start;
+ }
+
+
+
+
+
+
+
+.aside_r_t {
+    display: none;
+    padding: 13px;
+    margin: 0;
+    background: url(./SVG/svgexport-24.svg) center center/contain no-repeat;
+    position: fixed;
+    font-size: 25px;
+    right: 30px;
+    top: 20px;
+    transition: color .33s ease;
+    cursor: pointer;
+    
+}
+
+.aside_r_t.shown {
+    display: block;
+}
+
+.aside_r_b {
+    padding: 10px;
+    margin: 0;
+    background: white url(./SVG/svgexport-29.svg) center center no-repeat;
+    border: 15px transparent solid;
+    border-radius: 50%;
+    position: fixed;
+    font-size: 25px;
+    right: 35px;
+    bottom: 80px;
+    box-shadow: rgb(100, 100, 100) 1px 1px 30px 0px ;
+    cursor: pointer;
+}
+
+
+
+#aside-l {
+    width: 1vw;
+    height: 28vh;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    font-size: 30px;
+    left: 0.7vw;
+    bottom: 35vh;
+    opacity: 1;
+    
+}
+.nav-con {
+    width: 100%;
+    height: 10%;
+    cursor: pointer;
+
+}
+
+.nav-page {
+    position: relative;
+    background-color: rgb(148, 145, 145);
+    width: 10%;
+    height: 100%;    
+}
+
+.nav-con a {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+
+
+#nav_page_1:hover::after {
+    content: "MODEL 3";
+    position: fixed;
+    left: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    opacity: 1;
+}
+
+#nav_page_2:hover::after {
+    content: "SAFETY";
+    position: fixed;
+    left: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    z-index: 15;
+}
+#nav_page_3:hover::after {
+    content: "PERFORMANCE";
+    position: fixed;
+    left: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+}
+#nav_page_4:hover::after {
+    content: "ALL-WHEEL DRIVE";
+    position: fixed;
+    left: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+}
+#nav_page_5:hover::after {
+    content: "RANGE";
+    position: fixed;
+    left: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+}
+#nav_page_6:hover::after {
+    content: "AUTOPILOT";
+    position: fixed;
+    left: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+}
+#nav_page_7:hover::after {
+    content: "INTERIOR";
+    position: fixed;
+    left: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+}
+#nav_page_8:hover::after {
+    content: "SPECS";
+    position: fixed;
+    left: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+}
+#nav_page_9:hover::after {
+    content: "ORDER";
+    position: fixed;
+    left: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+}
+
+.top_nav_link{
+    height: 100%;
+    padding: auto;
+    margin: auto;
+}

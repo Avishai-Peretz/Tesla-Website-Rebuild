@@ -1,0 +1,587 @@
+
+@font-face {
+font-display: swap;
+font-family: Gotham SSm;
+font-style: normal;
+font-weight: 500;
+src: url(https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-Medium_Web.woff2)
+    format("woff2");
+}
+
+@font-face {
+font-display: swap;
+font-family: Gotham SSm;
+font-style: normal;
+font-weight: 400;
+src: url(https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-Book_Web.woff2)
+    format("woff2");
+}
+
+@font-face {
+font-display: swap;
+font-family: Gotham SSm;
+font-style: normal;
+font-weight: 700;
+src: url(https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-Bold_Web.woff2)
+    format("woff2");
+}
+
+@font-face {
+font-display: swap;
+font-family: Gotham SSm;
+font-style: normal;
+font-weight: 300;
+src: url(https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-Light_Web.woff2)
+    format("woff2");
+}
+
+@font-face {
+font-display: swap;
+font-family: Gotham SSm;
+font-style: normal;
+font-weight: 200;
+src: url(https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-XLight_Web.woff2)
+    format("woff2");
+}
+
+
+/* font_weight */
+.fw_2 {
+    font-family: Gotham SSm;
+    font-weight: 200;
+}
+
+.fw_3 {
+    font-family: gotham SSm;
+    font-weight: 300;
+}
+
+.fw_4 {
+    font-family: gotham SSm;
+    font-weight: 400;
+}
+
+.fw_5 {
+    font-family: gotham SSm;
+    font-weight: 500;
+}
+
+.fw_7 {
+    font-family: gotham SSm;
+    font-weight: 700;
+}
+
+.txt_deco {
+    text-decoration: none;
+}
+
+/* Text colors */
+.txt-grey {
+    color: #4c4f53;
+
+}
+.txt-silver {
+    color: #c8c8ca;
+}
+
+.txt-black {
+    color: #171a20;
+    }
+
+
+.txt-white {
+    color: #fff ;
+}
+
+/* Font Size */
+.txt-12 {
+    font-size: 12px;
+}
+.txt-14{
+   font-size: 14px;
+}
+.txt-17{
+    font-size: 17px;
+}
+.txt-24{
+    font-size: 24px;
+}
+.txt-28{
+    font-size: 28px;
+}
+.txt-40{
+    font-size: 40px;
+}
+
+
+.txt_deco {
+    text-decoration: none;
+}
+
+.txt_align {
+    text-align: center;
+}
+
+/* Buttuon */
+
+
+
+.buttons {
+    width: 100%;
+}
+.buttons a {
+    margin: 20px;
+}
+
+.btn {
+    cursor: pointer;
+    display:block;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+
+.btn-1d {
+    width: 190px;
+    padding: 10px 30px;
+    background: transparent;
+    border: 3px #171a20 solid;
+    border-radius: 20px;
+    color: #171a20;
+    text-align: center;
+    font-size: 14px;
+}
+.btn-1d:hover {
+    background-color:#171a20;
+    color: #fff;
+}
+.btn-1l {
+    width: 204px;
+    padding: 10px 30px;
+    background: transparent;
+    border: 3px #fff solid;
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+.btn-1l:hover {
+    background-color:#fff;
+    color: #171a20;
+}
+.btn_plus_dark {
+    background: url(./SVG/svgexport-12.svg) no-repeat left center;
+    width: 40px;
+    height: 40px;
+    border: 3px #171a20 solid;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 35px;
+}
+.btn-2l:hover {
+    background-color:#171a20;
+    color: #fff;
+}
+.btn-2l:hover {
+    background-color:#171a20;
+    color: #fff;
+}
+.btn_plus_dark {
+    width: 40px;
+    height:40px;
+    margin: 5px;
+    border: 3px #171a20 solid; 
+    border-radius: 50%;
+    color: #171a20;
+    text-align: center;   
+}
+.btn_plus_dark:hover {
+    background-color:#171a20;
+    color: #171a20;
+    font-size: 40px;
+}
+
+#btn-2 {
+    width:110px;
+    height: 40px;
+    word-spacing: 2px; 
+    letter-spacing: 2px; 
+}
+
+#btn-2:hover > .btn-2d {
+    background-color:#171a20;
+    color: #fff;
+}
+
+
+
+.btn_reset {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.row-c-c {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+}
+
+.row-c-sb {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+}
+.row-c-sa {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: space-around;
+}
+.row-c-se {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: space-evenly;
+}
+.row-c-fs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content:flex-start;
+}
+.row-c-fe {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content:flex-end;
+}
+
+.row-fs-c{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content: center;
+}
+.row-fs-sb {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.row-fs-sa {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content: space-around;
+}
+.row-fs-se {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content: space-evenly;
+}
+.row-fs-fs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content:flex-start;
+}
+.row-fs-fe {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content:flex-end;
+}
+
+.row-fe-c{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.row-fe-sb {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.row-fe-sa {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:flex-end;
+    justify-content: space-around;
+}
+.row-fe-se {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:flex-end;
+    justify-content: space-evenly;
+}
+.row-fe-fs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:flex-end;
+    justify-content:flex-start;
+}
+.row-fe-fe {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:flex-end;
+    justify-content:flex-end;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.column-c-c {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+}
+.column-sb-c {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: space-between;
+}
+.column-sa-c {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: space-around;
+}
+.column-se-c {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: space-evenly;
+}
+.column-fs-c {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content:flex-start;
+}
+.column-fe-c {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content:flex-end;
+}
+
+.column-fs-c {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content: center;
+}
+.column-sb-fs {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.column-sa-fs {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content: space-around;
+}
+.column-se-fs {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content: space-evenly;
+}
+.column-fs-fs {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content:flex-start;
+}
+.column-fe-fs {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content:flex-end;
+}
+
+.column-c-fe {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+}
+.column-sb-fe {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.column-sa-fe {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:flex-end;
+    justify-content: space-around;
+}
+.column-se-fe {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:flex-end;
+    justify-content: space-evenly;
+}
+.column-fs-fe {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:flex-end;
+    justify-content:flex-start;
+}
+.column-fe-fe {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:flex-end;
+    justify-content:flex-end;
+}
+
+.block {display: flex;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* do not write under the line!
+_________________________________________________
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+.tran { 
+    opacity: 0 !important; 
+    transition: 2s !important;
+}
+.tran_2 { 
+    opacity: 0 !important; 
+    transition: 0.5s !important;
+}
+
+.none { 
+    display: none !important; 
+    transition: 1s !important;
+}
+
+.current_light{ 
+    width: 14%;
+    background-color: white;
+    border-radius: 5px;
+    color: #fff;
+    opacity: 1;
+    box-shadow: 1px 1px 0px 1px;
+}
+.current_dark{ 
+    width: 14%;
+    background-color: #171a20;
+    color: #000;
+    border-radius: 5px;
+    color:#171a20;
+    opacity: 1;
+    box-shadow: 1px 2px 0px 1px;
+}
+.p1_after::after{
+    content: "MODEL 3";
+    position: fixed;
+    left: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffffff;
+    font-weight: 700;
+    z-index: 15;
+    transition: 0.5S ;
+}
+.p2_after::after{
+    content: "SAFETY";
+    position: fixed;
+    left: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #171a20;
+    font-weight: 700;
+    z-index: 15;
+    transition: 0.5S;
+}
+.p3_after::after{
+    content: "PERFORMANCE";
+    position: fixed;
+    left: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffffff;
+    font-weight: 700;
+    z-index: 15;
+    transition: 0.5S;
+}
+.aside_l_dark {
+    background-color: #171a20;
+}
+
+* {
+    text-decoration: none;
+} 
+

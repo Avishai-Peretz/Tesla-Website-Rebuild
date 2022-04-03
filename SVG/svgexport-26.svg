@@ -1,0 +1,8 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" class="tds-icon tcl-icon--round tcl-drawer-trigger__trigger tcl-drawer-trigger__trigger-close" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" width="100"  height="100" ><defs><symbol id="tcl-icon-close--small" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+    <g stroke="#393C41" stroke-width="1.5px" stroke-linecap="round">
+      <line x1="10" y1="10" x2="20" y2="20" stroke="#393C41" stroke-width="1.5px"></line>
+      <line x1="20" y1="10" x2="10" y2="20" stroke="#393C41" stroke-width="1.5px"></line>
+    </g>
+  </symbol></defs>
+      <use xlink:href="#tcl-icon-close--small"></use>
+    </svg>
